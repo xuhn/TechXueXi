@@ -541,8 +541,8 @@ class Mydriver:
         time.sleep(1)
         if self.driver.find_elements_by_class_name("nc-mask-display"):
             self.swiper_valid()
-            # print("出现滑块验证。")
-            gl.pushprint("出现滑块验证")
+            print("出现滑块验证。")
+            # gl.pushprint("出现滑块验证")
 
     # 滑块验证
     def swiper_valid(self):
